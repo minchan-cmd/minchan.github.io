@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   height: 100vh;
   padding: 10px;
-  gap: 10px;
+  gap: 5px;
 }
 
 .box {
