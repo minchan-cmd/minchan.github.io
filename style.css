@@ -2,13 +2,13 @@
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       text-align: center;
-      padding-top: 100px;
+      padding-top: 20px;
     }
 
-header
+header 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
