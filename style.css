@@ -41,15 +41,11 @@ header, footer {
 }
 
 .item {
-  outline: 1px solid black;
-  flex: 1;
-  align-self: flex-end;
-  order: 2;
+  flex: 0 0 150px;
   background-color: pink;
 }
+
 .middle-item {
   outline: 1px solid black;
-  flex: 2 1 0;
-  align-self: flex-end;
-  order: 2;
+  flex: 1 1 0;
   background-color: blue;
