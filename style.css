@@ -6,7 +6,7 @@
     }
 
 header {
-  outline: 1px solid box;
+  outline: 1px solid black;
   padding: 20px;
 }
 
@@ -25,6 +25,6 @@ header {
 
 
 footer {
-  outline: 1px solid box;
+  outline: 1px solid black;
   padding: 20px;
 }
