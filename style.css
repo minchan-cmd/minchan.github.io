@@ -1,6 +1,6 @@
 body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background-color: #ffffff;
       text-align: center;
       margin: 0;
       padding: 0;
@@ -37,3 +37,9 @@ body {
   order: 2;
   background-color: pink;
 }
+.middle-item {
+  outline: 1px solid black;
+  flex: 2 1 0;
+  align-self: flex-end;
+  order: 2;
+  background-color: blue;
