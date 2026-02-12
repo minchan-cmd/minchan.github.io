@@ -17,8 +17,10 @@ body {
 
 .box {
   display: flex;  
-  outline: 1px solid black;
-  padding: 20px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  font-weitht: bold;
   background-color: yellow;
 }
 
