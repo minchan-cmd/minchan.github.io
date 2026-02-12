@@ -1,18 +1,21 @@
-  body {
-      display: flex;
+body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       text-align: center;
-      flex-direction: column;
     }
 
-header {
+container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
   outline: 1px solid black;
   padding: 20px;
   background-color: yellow;
 }
 
-.container {
+.middle-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,11 +29,4 @@ header {
   align-self: flex-end;
   order: 2;
   background-color: pink;
-}
-
-
-footer {
-  outline: 1px solid black;
-  padding: 20px;
-  background-color: #11FFFF;
 }
